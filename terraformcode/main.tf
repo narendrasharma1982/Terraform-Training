@@ -10,7 +10,7 @@ module "storageaccount" {
   source = "./storageaccount"
   # depends_on = [ module.resourcegroup ]
   storage_name = var.storage_name
-  resource_group_name = module.resourcegroup.rgname    #var.resource_group_name
+  resource_group_name = var.resource_group_name    #var.resource_group_name
   location = var.location
 }
 
